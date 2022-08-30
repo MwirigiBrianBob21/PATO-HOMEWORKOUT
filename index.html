@@ -8,30 +8,36 @@
     <title>StayFit</title>
 </head>
 <body>
-    <div class="hidden"><div class="heading">
+    
+        <div class="heading">
         <h1>PATO HOME-WORKOUT</h1>
         <p id="barcode">lite</p>
     </div>
-    <div class="container">
+    <div class="container" style='display:none'>
+        <p>workout</p>
+        <button class="button" >End</button>
+
+    </div>
+    <div class="container" >
         <div class="day">
             <h2>MONDAY</h2>
-            <button>Start</button>
+            <button class="button" id="monday-start">Start</button>
         </div>
         <div class="day" id="tuesday">
             <h2>TUESDAY</h2>
-            <button>Start</button>
+            <button class="button" id="tuesday-start">Start</button>
         </div>
         <div class="day">
             <h2>WEDNESDAY</h2>
-            <button>Start</button>
+            <button class="button" id="wednesday-start">Start</button>
         </div>
         <div class="day">
             <h2>THURSDAY</h2>
-            <button>Start</button>
+            <button class="button" id="thursday-start">Start</button>
         </div>
         <div class="day">
             <h2>FRIDAY</h2>
-            <button>Start</button>
+            <button class="button" id="friday-start">Start</button>
         </div>
 
         <div class="athlete">
@@ -45,7 +51,7 @@
             </ul>
         </div>
     </div>
-    </div>
+    
     <script src="./js/index.js"></script>
 </body>
 </html>
