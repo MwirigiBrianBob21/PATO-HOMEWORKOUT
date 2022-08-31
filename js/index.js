@@ -31,20 +31,43 @@ function displayHomePage() {
 
 
 function displayWorkoutPage() {
+
+    
     [].forEach.call(document.querySelectorAll('.container'), 
         function(el){
             if(el.style.display == 'flex')
                 el.style.display = 'none';
             else if(el.style.display == 'none')
                 
-                el.style.display = 'flex'
+                el.style.display = 'flex';
+                countdown()
                 
         });
 
-       
+    
+
+        // Add timer
+
+    function countdown(){
+        var timeleft = 15;
+
+    var downloadTimer = setInterval(function function1(){
+    document.getElementById("countdown").innerHTML = timeleft + 
+    " "+"seconds remaining";
+
+    timeleft -= 1;
+    if(timeleft <= 0){
+        clearInterval(downloadTimer);
+        document.getElementById("countdown").innerHTML = "Time is up!"
+    }
+    }, 1000);
+
+    console.log(countdown);
 
      
-}
+}}
+
+// const daysOfTheWeek = }
 
 
 

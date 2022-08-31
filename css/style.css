@@ -99,8 +99,19 @@ button{
 }
 table {
     display:list-item;
+    
     border-collapse: collapse;
-    font-size: 50px;
+    font-size: 20px;    
+    color: #30FF0F
+  }
+  .weekday{
+    position: relative;
+    left: 35%;
     width: 70%;
-    color: green
+  }
+  th{
+    color: #FFEB00;
+  }
+  th, td {
+    border: 3px solid;
   }
