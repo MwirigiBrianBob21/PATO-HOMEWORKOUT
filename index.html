@@ -13,30 +13,35 @@
         <h1>PATO HOME-WORKOUT</h1>
         <p id="barcode">lite</p>
     </div>
-    <div class="container" style='display:none' >
+    <div class="container workout" style='display:none' >
         <div class="weekday">
             <table>
                 <tr>
                   <th>Exercise Image</th>
+                  <th>Workout</th>
                   <th>Instructions</th>
                   <th>Sets</th>
                   <th>Muscle Group</th>
                 </tr>
                 <tr>
-                  <td><img src="" alt="exerciseImage"></td>
-                  <td>workout instructions</td>
+                  <td class="workout-image"><img src="" alt="exerciseImage">
+                    <td>Name</td>
+                  <td>Workout instructions</td>
                   <td>3 sets</td>
                   <td><img src="" alt="musclegroup"></td>
                 </tr>
                 <tr>
-                    <td><img src="" alt="exerciseImage"></td>
+                    <td class="workout-image"><img src="" alt="exerciseImage"></td>
+                    <td>Name</td>
+
                     <td>workout instructions</td>
                     <td>3 sets</td>
                     <td><img src="" alt="musclegroup"></td>
                   </tr>
               </table>
-              <textarea name="" id="countdown" cols="3" rows="5">Observe 30 seconds break</textarea>
+              <div id="countdown">
 
+              </div>
               <div>
                 <button class="end-button" >Done</button>
     
@@ -76,7 +81,7 @@
                 <li>Stretching</li>
             </ul>
         </div>
-    </div>
+    </div>   
     
     <script src="./js/index.js"></script>
 </body>
