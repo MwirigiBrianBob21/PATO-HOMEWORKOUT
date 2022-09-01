@@ -9,7 +9,9 @@ are complementary */
 body{
     width: 1440px;
     height: 1024px;
-    background-image: url(/images/sushil-ghimire-DC5akQJyH4I-unsplash\ 1\ \(1\).png);
+    /* background-image: url(/images/sushil-ghimire-DC5akQJyH4I-unsplash\ 1\ \(1\).png); */
+    /* background-image: -moz-repeating-radial-gradient(255,255,0); */
+    background:currentColor;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
     

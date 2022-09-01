@@ -3,35 +3,18 @@ const apiHost = "http://localhost:3000";
 
 
 document.addEventListener("DOMContentLoaded", ()=>{
-    fetch(`${apiForeign }/warmup`)
-    .then(response => response.json())
-    .then( exercise => {console.log( exercise)})
+    
+    
 
-    document.querySelector("#monday-start").addEventListener("click",() =>{
-        console.log("Hello")
-        let workoutTable = document.querySelector("tr")
-        console.log(workoutTable)
-        
-        for(let r of exercise.list) {
-            workoutTable += `<tr>
-            <th>${r.id}</th>
-            <th>Workout</th>
-            <th>Instructions</th>
-            <th>Sets</th>
-            <th>Muscle Group</th>
-          </tr>`;
-        }
-       
-        document.querySelector("table").innerHTML = workoutTable;
-    })
-     
+
+
+
+    
     
     // Adding Button Functionalities
     Array.from(document.getElementsByClassName('button')).forEach(function (elm) { elm.addEventListener('click', ()=>{
         displayWorkoutPage()
-        // mondayWorkout()
-    //    let buttonArray = [...elm]
-    //    console.log(elm)
+
         })
     }) 
 
@@ -97,12 +80,29 @@ function displayWorkoutPage() {
 }
 
 
+fetch(`${apiHost }/workout`)
+    .then(response => response.json())
+    .then( workout => {
+        
+        return workout;
+        
+        
+    })
+// Render Workouts Array
+function fetchWorkouts(){
+    fetch(`${apiHost}/workout`)
+    .then(response => response.json())
+    .then(obj => {
+        let array = obj.workout
+       console.log(array)
+        
+    }) 
+}fetchWorkouts()
 
+})
     
  
   
-})
-
 
 
 
