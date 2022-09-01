@@ -1,0 +1,511 @@
+
+
+{
+  "warmup": [
+    {
+      "id": 1,
+      "name": "Jumping Jacks",
+      "likes": 0,
+      "image1": "https://thumbs.dreamstime.com/b/young-woman-doing-exercise-jumping-jacks-78844011.jpg",
+      "image2": "https://1.bp.blogspot.com/-KrLyy86bHww/XsuYzwVhr-I/AAAAAAAAD2s/53JkiUBMnx4Tpmd2ybviIz7Y2z7i5qw2gCPcBGAYYCw/s1600/jumping%2Bjack.gif",
+      "instructions": "Stand upright with your legs together, arms at your sides. Bend your knees slightly, and jump into the air. As you jump, spread your legs to be about shoulder-width apart. Stretch your arms out and over your head. Jump back to starting position. Repeat",
+      "time": "20"
+    },
+    {
+      "id": 2,
+      "name": "Arm Raises",
+      "likes": 0,
+      "image1": "https://thumbs.dreamstime.com/b/arm-raises-exercise-pose-demonstration-step-wood-manikin-white-background-92735146.jpg",
+      "image2": "https://thumbs.dreamstime.com/b/arm-raise-exercise-man-sport-clothes-doing-warm-up-arm-raise-exercise-man-sport-clothes-doing-warm-up-workout-idea-155128603.jpg",
+      "instructions": "Stand with feet shoulder length apart and keep your hands at your side with palms facing forward, raise your arms up and out to the sides so that your arms are at shoulder height. Then lower them to starting position, with a fluid and constant motion until you have completed the set.",
+      "time": "30"
+    },
+    {
+      "id": 3,
+      "name": "Side Arm Raise",
+      "likes": 0,
+      "image1": "https://cdn.exercise.com/assets/muscles/exercisecom/Muscles_diagram.png",
+      "image2": "",
+      "instructions": "Stand upright with your feet shoulder width apart and your arms down by your sides. This is your starting position. With straight arms, exhale as you raise the dumbbells out to the sides until your arms are parallel with the floor. Hold the contraction for a moment and then inhale as you lower the dumbbells back to your starting position.",
+      "time": "30"
+    },
+    {
+      "id": 4,
+      "name": "Side Hop",
+      "likes": 0,
+      "image1": "https://www.getstrong.fit/images/side-to-side-jumps.jpg?ezimgfmt=rs:432x324/rscb1/ng:webp/ngcb1",
+      "image2": "https://cdn.exercise.com/assets/muscles/exercisecom/Muscles_diagram.png",
+      "instructions": "Stand beside a weight bench(or any divider) approximately one foot away. Put your feet about shoulder width apart. Keep your core tight, shoulders back, and look forward. Drive your hips back and bend at your knees to lower your body into a quarter squat position. You are now in the starting position. Now explosively jump to the side. Make sure to jump high enough to clear the weight bench completely. Land in the same stance you started in on the other side. When landing bend at your knees to returning to the squat position. Do this to help absorb the impact of landing preventing overstressing your knees.Once you have landed, quickly jump back to the side that you started on.Repeat for the desired repetitions or time frame.",
+      "time": "30"
+    },
+    {
+      
+    }
+  ],
+  "workout": [
+    {
+      "id": 1,
+      "name": "Incline Push-ups",
+      "likes": 0,
+      "image1": "https://www.aleanlife.com/wp-content/uploads/2021/07/what-are-benefits-of-incine-push-ups.jpg?ezimgfmt=rs:885x402/rscb2/ng:webp/ngcb2",
+      "image2": "",
+      "instructions": "Assume a standard push-up position. But rather than placing your hands on the ground find a raised platform, bench or even a step to place your hands. Place hands slightly farther than shoulder-width apart and feet on the ground and on the balls of your feet. Body should be straight from your heels to your head.Keep elbows tucked in a lower yourself down until your chest briefly touches the raise surface, pause, then immediately push up as quickly as possible. This completes one rep.",
+      "sets": ""
+    },
+    {
+      "id": 2,
+      "name": "Push Ups",
+      "likes": 0,
+      "image1": "https://www.fitnesseducation.edu.au/wp-content/uploads/2020/10/Pushups.jpg",
+      "image2": "https://media1.popsugar-assets.com/files/thumbor/r7U3X9N3uvx8JxTecr04vOyFGFM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2014/09/19/987/n/1922729/2d98458305158139_basiccollage/i/Basic-Push-Up.jpg",
+      "instructions": "Get down on all fours, placing your hands slightly wider than your shoulders. Straighten your arms and legs. Lower your body until your chest nearly touches the floor. Pause, then push yourself back up. Repeat.",
+      "sets": "4"
+    },
+    {
+      "id": 3,
+      "name": "Wide Arm Push-Ups",
+      "likes": 0,
+      "image1": "https://qph.cf2.quoracdn.net/main-qimg-e79252dc3d561ac0aa3b58541e299bec-lq",
+      "image2": "",
+      "instructions": "Place your hands on the floor just wider than shoulder width and at chest height then step your feet back behind you and lift your knees. Engage your glutes, tense your legs and brace your core to keep your body rigid. Bend at the elbows to lower your body towards the floor.",
+      "sets": ""
+    },
+    {
+      "id": 4,
+      "name": "Triceps Dips",
+      "likes": 0,
+      "image1": "https://qph.cf2.quoracdn.net/main-qimg-cf2058c891a58de973cc146af500a09e-lq",
+      "image2": "https://www.verywellfit.com/thmb/h8aOqGEzMMdY6P_O6qR2TbG6Hdk=/4500x3000/filters:fill(FFDB5D,1)/About-2A15-TricepDips-939-5a6b97320e23d90036057538.jpg",
+      "instructions": "Press into your palms to lift your body and slide forward just far enough that your behind clears the edge of the chair. Lower yourself until your elbows are bent between 45 and 90 degrees.Push yourself back up slowly until your arms are almost straight, and repeat.",
+      "sets": ""
+    },
+    {
+      "id": 5,
+      "name": "Knee Push-Ups",
+      "likes": 0,
+      "image1": "https://1.bp.blogspot.com/-eZpJz3mS8ww/XtXyGwM6gtI/AAAAAAAAEW0/ROf40-cIMCwHj0mFKDqXCIfRj_G8OSoogCPcBGAYYCw/s320/knee%2Bpush%2Buos.gif",
+      "image2": "https://www.spotebi.com/wp-content/uploads/2014/10/knee-push-up-exercise-illustration.jpg",
+      "instructions": "Kneel on the floor. Extend arms and put hands shoulder-width apart on the floor in front of you. Tighten abs while you bend arms, lowering your torso until chest grazes the floor. Push torso back up by straightening arms. Slow and steady. Repeat.",
+      "sets": ""
+    },
+    {
+      "id": 6,
+      "name": "Abdominal Cruches",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/crunches-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Lie down on the mat, keep your knees bent, your back and feet flat, and your hands supporting your head. Lift your shoulders, squeeze your abdominal muscles and hold for 1 to 2 seconds. Slowly return to the starting position and repeat until set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 7,
+      "name": "Russian Twist",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/04/russian-twist-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": " Lie down with your legs bent at the knees. Elevate your upper body so that it creates a V shape with your thighs.Twist your torso to the right, and then reverse the motion, twisting it to the left. Repeat this movement until the set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 8,
+      "name": "Mountain Climber",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2018/01/mountain-climber-twist-exercise-illustration-spotebi.jpg",
+      "image2": "",
+      "instructions": "Start with your body in plank position and your hands slightly wider than shoulder-width apart.Bring your left knee up toward the right elbow and then quickly alternate legs. Continue alternating legs until the set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 9,
+      "name": "Heel Touch",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/alternate-heel-touchers-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Lie on your back, keep your knees bent, arms at the sides, and keep your back and feet flat on the mat. Crunch forward and to the left, touching your left heel with your left hand and hold. Return slowly to the starting position and repeat the movement on the right side. Repeat this side-to-side movement until the set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 10,
+      "name": "Leg Raises",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/straight-leg-raise-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Lie on your back with your hands by your sides or underneath your glutes. Keep your legs straight or just slightly bent. Raise your legs until your body is in an L shape. Pause, lower both legs slowly and then return to the starting position. Repeat until set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 11,
+      "name": "Plank",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/plank-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Get into a push up position, with your elbows under your shoulders and your feet hip-width apart. Bend your elbows and rest your weight on your forearms and on your toes, keeping your body in a straight line. Hold for as long as possible.",
+      "time": "30"
+    },
+    {
+      "id": 12,
+      "name": "Arm Circles Clockwise",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/arm-circles-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight with your feet shoulder-width apart. Raise and extend your arms to the sides without bending the elbows. Slowly rotate your arms forward, making small circles of about 1 foot in diameter. Complete a set in one direction and then switch, rotating backward.",
+      "time": "30"
+    },
+    {
+      "id": 13,
+      "name": "Arm Circles Counter-clockwise",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/arm-circles-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight with your feet shoulder-width apart. Raise and extend your arms to the sides without bending the elbows. Slowly rotate your arms forward, making small circles of about 1 foot in diameter. Complete a set in the counter-clockwise.",
+      "time": "30"
+    },
+    {
+      "id": 14,
+      "name": "Diamond Push-Ups",
+      "likes": 0,
+      "image1": "https://www.aleanlife.com/wp-content/uploads/2021/01/diamond-push-up-form.jpg?ezimgfmt=rs%3Adevice%2Frscb2-1",
+      "image2": "https://makeupandbeauty.com/wp-content/uploads/2015/04/Workout-Routine-for-Tank-Top-Ready-Arms8.jpg",
+      "instructions": "Start in the classic push up position, then move your hands to a diamond position as show above. Much like the classic push up, keep your back straight and your core solid during the push up motion. Diamond push ups are very challenging, and take strength and practice. As you begin this bodyweight exercise, only go halfway down until you feel fully comfortable with a lower down position. The down position with diamond push up is never the fully down position like a classic push up. Do the motion slowly and deliberately to maintain balance and control.",
+      "sets": ""
+    },
+    {
+      "id": 15,
+      "name": "Arm Circles Counter-clockwise",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/arm-circles-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight with your feet shoulder-width apart. Raise and extend your arms to the sides without bending the elbows. Slowly rotate your arms forward, making small circles of about 1 foot in diameter. Complete a set in the counter-clockwise.",
+      "time": "30"
+    },
+    {
+      "id": 16,
+      "name": "Chest Press Pulse",
+      "likes": 0,
+      "image1": "https://makeupandbeauty.com/wp-content/uploads/2015/04/Workout-Routine-for-Tank-Top-Ready-Arms.jpg",
+      "image2": "",
+      "instructions": "Bring your elbows and palms together. Now, lift up your arms bringing the elbows towards your chin. You will feel your biceps, shoulders and chest working out. Keep doing this exercise for sleek arms for about 60 seconds.",
+      "time": ""
+    },
+    {
+      "id": 17,
+      "name": "Leg Barbell Curl Left",
+      "likes": 0,
+      "image1": "https://fitnessvolt.com/wp-content/uploads/2018/04/biceps-leg-curl-750x474.jpg",
+      "image2": "",
+      "instructions": "Begin by sitting on a chair as close to the edge as possible. Then, place your left hand under your right thigh at the crease between your hamstrings and calves.Now, with your back straight slowly curl your right up as high as you can. Exhale during this portion of the exercise. Hold for a couple of seconds. Then, slowly lower your leg back down so your foot is just above the ground. Inhale during this portion of the exercise. Repeat for the desired number of reps. Then, use your right hand to curl your left thigh for your desired number of reps.",
+      "sets": ""
+    },
+    {
+      "id": 18,
+      "name": "Leg Barbell Curl Right",
+      "likes": 0,
+      "image1": "https://fitnessvolt.com/wp-content/uploads/2018/04/biceps-leg-curl-750x474.jpg",
+      "image2": "",
+      "instructions": "Begin by sitting on a chair as close to the edge as possible. Then, place your right hand under your left thigh at the crease between your hamstrings and calves.Now, with your back straight slowly curl your left up as high as you can. Exhale during this portion of the exercise. Hold for a couple of seconds. Then, slowly lower your leg back down so your foot is just above the ground. Inhale during this portion of the exercise. Repeat for the desired number of reps. Then, use your left hand to curl your left thigh for your desired number of reps.",
+      "sets": ""
+    },
+    {
+      "id": 19,
+      "name": "Diagonal Plank",
+      "likes": 0,
+      "image1": "https://s3.amazonaws.com/prod.skimble/assets/706335/image_iphone.jpg",
+      "image2": "",
+      "instructions": "Position yourself on your elbows and toes, with your body forming a straight line from your shoulders to your ankles. Brace your abs, squeeze your butt, and spread your feet just wider than shoulder-width apart. Without moving your body, lift one arm off the floor and reach diagonally to that side. Hold for a second, then return to your starting position. Repeat on the other side.",
+      "sets": ""
+    },
+    {
+      "id": 20,
+      "name": "Punches",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/04/cross-punch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand with your feet hip-width apart, your knees slightly bent, and hold a dumbbell in each hand.Take a step forward with your left foot, keep your back foot at a 45-degree angle and position your body partially sideways. Bring your arms up, so that the palms of the hands are facing the sides of the face. Push your right arm out in a punching motion and then return to the starting position. Switch sides and repeat.",
+      "time": "30"
+    },
+    {
+      "id": 21,
+      "name": "Inchworms",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/01/inchworm-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight with your feet shoulder-width apart. Bend over and touch the floor with the palms of your hands.Walk your hands out, as far as you can while keeping your legs straight, and pause.. Walk back up to the starting position and repeat until the set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 22,
+      "name": "Wall Pushups",
+      "likes": 0,
+      "image1": "https://workouttrends.com/wp-content/uploads/2014/05/wall-push-ups.jpg",
+      "image2": "https://workouttrends.com/wp-content/uploads/2014/05/wall-push-ups.jpg",
+      "instructions": "Lift one leg off of the ground behind you. Slowly bend your elbows and begin to lean your body toward the wall until your nose almost touches it. Keep your back straight and elbows bending at around a 45-degree angle (instead of straight to the sides). Slowly push back to the starting position.",
+      "sets": "Stand up with your feet shoulder-width apart. Bend your knees, press your hips back and stop the movement once the hip joint is slightly lower than the knees. Press your heels into the floor to return to the initial position. Repeat until set is complete."
+    },
+    {
+      "id": 23,
+      "name": "Squats",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/squat-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand up with your feet shoulder-width apart. Bend your knees, press your hips back and stop the movement once the hip joint is slightly lower than the knees. Press your heels into the floor to return to the initial position. Repeat until set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 24,
+      "name": "Side-Lying Leg Lift Right",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2016/09/lying-side-hip-abduction-exercise-illustration-spotebi.jpg",
+      "image2": "",
+      "instructions": "Lie on your side with both legs extended. Lift your top leg as high as possible and then lower it back down. Repeat this movement for the duration of the set and then switch legs.",
+      "sets": ""
+    },
+    {
+      "id": 25,
+      "name": "Side-Lying Leg Lift Left",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2016/09/lying-side-hip-abduction-exercise-illustration-spotebi.jpg",
+      "image2": "",
+      "instructions": "Lie on your side with both legs extended. Lift your top leg as high as possible and then lower it back down. Repeat this movement for the duration of the set and then switch legs.",
+      "sets": ""
+    },
+    {
+      "id": 26,
+      "name": "Backward Lunge",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2016/09/front-and-back-lunges-exercise-illustration-spotebi.jpg",
+      "image2": "",
+      "instructions": "Stand with your feet hip-width apart, take a step forward and then slowly bend both knees until your back knee is just above the floor. Stand back up, take a step back with the same leg, and bend both knees until your back knee is just above the floor.            3. Repeat this back and forth movement for the entire duration of the set, and then switch legs.",
+      "sets": ""
+    },
+    {
+      "id": 27,
+      "name": "Donkey Kicks Right",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/01/donkey-kicks-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Get down on all fours and position your hands under your shoulders and your knees under your hips. Kick back with one leg and squeeze the glutes. Bend the knee, lower the leg, and repeat. Switch legs.",
+      "sets": ""
+    },
+    {
+      "id": 28,
+      "name": "Donkey Kicks Left",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/01/donkey-kicks-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Get down on all fours and position your hands under your shoulders and your knees under your hips. Kick back with one leg and squeeze the glutes. Bend the knee, lower the leg, and repeat.",
+      "sets": ""
+    },
+    {
+      "id": 29,
+      "name": "Wall Calf Raises",
+      "likes": 0,
+      "image1": "https://geeksonfeet.com/img/workouts/calfraises_hu70808923bf27faf24ab2eb790fa98c30_40649_900x0_resize_q100_h2_box.webp",
+      "image2": "",
+      "instructions": "Stand on the step; with weight on the toes, and for balance hold a grill or wall with your hands.Then raise yourself on the toes all the way, and hold it for 2-3 seconds. Once you are in the position, bring your heels all the way down. In calf-raises drill (first variation), hold the heel position once you reach the horizontal position.  In calf-raises with heel-drop (second variation), bring the heel down all the way (not touching the ground) so the calf feels the full stretch. Bring the heel back to position.  Repeat",
+      "sets": ""
+    },
+    {
+      "id": 30,
+      "name": "Sumo Squat Calf Raises With Wall",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2016/07/plie-squat-calf-raise-exercise-illustration-spotebi.jpg",
+      "image2": "",
+      "instructions": "Start in a sumo squat position, with your feet in a wide stance, your toes pointing out to the sides, and your thighs parallel to the floor. Raise your heels off the floor and squeeze your calves. Lower your heels and return to the starting position. Repeat until the set is complete.",
+      "sets": ""
+    },
+    {
+      "id": 31,
+      "name": "Rhomboid Pulls",
+      "likes": 0,
+      "image1": "https://cdn.jackedgorilla.com/wp-content/uploads/2022/03/Best-Rhomboid-Exercises-Banded-Pull-Aparts.jpg",
+      "image2": "https://1.bp.blogspot.com/-JoTyRLUIMXQ/Xte8d1WIJ3I/AAAAAAAAEZ4/z44KlISR9GEcOTOFVJPBKALQF5Ws_5FGwCEwYBhgLKs0DAL1OcqyvyaJbEkWaYrrgZ6sQHcsC3UyrWV5DQKYn5vyCl1G4Qyxwf3IZ-162FHjxf2n8lN2GuUux9L_erD0tyob83gQFCEwIzevKA7xCfl65Ditpz5D9DmrBxiTG9qW7D1IlA1xeJPUeifDqQMZLOr-c4n6E1tA5OWopzoxGfHBx80GReE4yEU9ae2pnmoVLm4cwWhkxbF1aK_KLkIfkEPssGm9cykpMynum98rvhtZa-vXVkuWE9Hz2UGu-8Cs7x4k7h5G7LjaBiUowjpU-qD7FHfOCBYc7Et-T2JT8-bAVvi1zgCUQsraIOj910AjmZJV9oiVj5Slv5Mg6UlquRfuSXDvRe2GcdcJSPdj9WQY5GE9RrG0Xa8QiWFY2PjaMS8dTbtUQYL1dxdn0bpvRhlHMUNiTrjJyJ6F-O5DzkhVHFY8U4KrGwMcCSW3BmUkIF53yEp1seC9wiCgYx-TPTZ-x-yOvSWuVxw5Xj6jj3zBeXYTsRLt5UH6NTC1MrT4MCxQ7F7aIPIrUfi1O42nR6lUJSGypwk3z1xQSGFbQUW9YyqAHZzUq3XZ7HFoUtk0lIH3392CYhoD2B9CIfbSrzpe5TITOkg_Foy2NecYw24ff9gU/s1600/rhomboid%2Bpulls.gif",
+      "instructions": "Stretch your arms out in front of your body. Clasp one hand on top of your other hand. Gently reach out so that you feel your shoulder blades stretching away from each other. Gently bend your head forward.Repeat!",
+      "sets": ""
+    },
+    {
+      "id": 32,
+      "name": "Side-Arm Raise",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-lateral-raise-exercise-illustration.jpg",
+      "image2": "https://1.bp.blogspot.com/-dw7xjlAu64k/XtUERPnU1GI/AAAAAAAAEU8/q1ip0WzM27MPFzqwYTNP52uUCNjcpOlXwCPcBGAYYCw/s320/side%2Barm%2Braise.gif",
+      "instructions": " Grab a set of dumbbells(optional) and stand straight. With your palms facing down, lift the dumbbells and raise your arms out to the sides. Once your elbows are at shoulder height, pause, and then slowly lower the arms back to the initial position. Repeat.",
+      "time": ""
+    },
+    {
+      "id": 33,
+      "name": "Prone Triceps Push Ups",
+      "likes": 0,
+      "image1": "https://i.pinimg.com/originals/b0/a5/2d/b0a52db4dc8aede4dab5923746bd941b.jpg",
+      "image2": "https://1.bp.blogspot.com/-gIGzuWYTAHY/Xte98Q8kOjI/AAAAAAAAEa0/xMTqS2MiFbcvNYAzlVFAGMFjyYl3bHUFQCEwYBhgLKs0DAL1OcqxDjIdldPT9F5OlvJKbcZnClrMOOg2K0E6aHsXLIQ2qMJ2Q09fL7bMOqqbJjj0Jtzm2E36IdPpqHqo2QBeJYQCuwjGrAN4WU-GSo8Bbj7M5vqIA2piZWkqcgqhsmuuIHvYJdMT1OV_MFNaKzmHus5rMxZMfEAy-28CxoiDd2pCcn4HYKfOUoT5-vuH9xfAdOxaZiPPsdOO3noBi_P0B0KIgJJjjLOlilki0RHo1bZsMNFp7JUeNwzUOACEnQOaRg_jhnYXGRhjWpJgCNOC-TFOy_jhGB2DjG387uO5YcWu9eq1iprqjfUkTpNP7kC54IvyVgqec16z6KBjDQTXtyS52KHn1MOg-MR95vFQAj-d6KXNxBVl7bHSXdOVucH20NUDklGz21GYKGNb2wjqRrFuozoxmyw2naUI9O7_1L79xD8L5qBvdEa7LVPKApvWxvX1xIFmVYRbSEGMnDwqI4UcF0lVzYIKdN9NmRv4ixkoudlJ2Khaz_4VbsfhSNW_wHSgiXNy2-i1lbyoBHvMDaUrTMNUCPz68fbwViNCczvPy1Jhc39iVSBhnezUicloM30cWK7-A2hLzcBuOXCAlVIObQfta9iTdCB8wm4Tf9gU/s320/prone%2Btriceps%2Bpushupe.gif",
+      "instructions": "Begin in plank position with the arms and body straight, shoulders over the wrists. Keep the core engaged. Bend the elbows behind you and lower your chest to the floor. Keep your upper arms tight to your body so your elbows are against your ribs on both sides. Straighten the arms, coming back to plank position. This counts as one rep. Do as many reps as you can with correct form",
+      "sets": ""
+    },
+    {
+      "id": 34,
+      "name": "Reclined Rhomboid Squeezes",
+      "likes": 0,
+      "image1": "https://1.bp.blogspot.com/-JoTyRLUIMXQ/Xte8d1WIJ3I/AAAAAAAAEZ0/Y72jzcHQvHYM3OWHK_N8-8_lP9iBguyrgCLcBGAsYHQ/s1600/rhomboid%2Bpulls.gif",
+      "image2": "https://1.bp.blogspot.com/-zao3tIXpXSk/Xte-HUL7NWI/AAAAAAAAEbA/yg8sekR6oh8SGIoVYZ-PGQ6Uz8upDpSjgCEwYBhgLKs0DAL1OcqySEJtrFUIgxY6vBs2vVU3c1gaXaWB0UMo3N3vNURPQVJUOnF0I9BV1Hhmk951r2I39ZHGHi2XCaTP1KsGg2ESgTP7jTc7bEUYUVCr69HUt-y1OsWWXGzuhlIPVo6oxv7gujjj0moWurLV-LVa4Gq_Up3wOZOS5h77RH9ymhBPtyU6RMtBQI5eJ2FEkfhr-cRl0DCzb-g2MFAHN2ymE9aXJIeQkF-U4fTynJ8q7brxJX0IdQTG92PoVZvOp8V-8dYe9vGTCwkldUdI5JfUL5gcjUqEqpPJUnp2YlysFELimsgZqh_9NqzOMVGw-_aFCTOPAU0HOTA09b4Z0dzwvpsw4WMeFpA9937PwcaC7zOoBAbPKi_S9c4qZHFGM-Tz9fmM0yxmY25alX01MxjxdcytuBFtHdFpTPgEzLbVCCM_dNhgRBZ7DOMVyWRQ3kM_J7w0mr-R3v77AA_dDOp_v4mz7PaawIAO3vRm5eypc0YkCc0tm2gPqHHpTEfzNnQbNqJN4VbfXudtiW18-UbosC7Fabgoy80KcJVxLTJtNYc8HOl8Xd_NIMTv_hQeRlL5lHlHYmq35f7nTpnLRjbOZRVo_qsdtlIPKicgwt4Tf9gU/s320/reclined%2Bromboid%2Bsqueeze.gif",
+      "instructions": "Sit on the ground. Bend your knees and place flat feet on the ground. Lift your arms pointed in front of you. Slightly lean your torso back. Bend your elbows until your forearms and upper arms form a sharp angle. Squeeze your shoulders and traps as much as you can. Relax your shoulders and return your arms to the starting position. Repeat the exercise according to the training plan.",
+      "sets": ""
+    },
+    {
+      
+    }
+  ],
+  "stretching": [
+    {
+      "id": 1,
+      "name": "Cobra Stretch",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/12/cobra-pose-bhujangasana.jpg",
+      "image2": "",
+      "instructions": "Lie on your belly, place your hands on the floor directly under the shoulders, and keep your elbows close to your torso. Inhale as you straighten the arms and lift your chest off the floor. Stay in cobra pose for 15 to 30 seconds.",
+      "time": ""
+    },
+    {
+      "id": 2,
+      "name": "Spine Lumbar Twist Stretch Left",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2016/04/supta-matsyendrasana-supine-spinal-twist-pose-spotebi.jpg",
+      "image2": "",
+      "instructions": "Lie on your back, bend your knees, rotate your hips to the left, extend your left leg, and cross your right knee over to the left side. Extend your right arm out to the side and rest your left hand on your right knee. Turn your head to the right and hold the pose for 30 seconds to 1 minute. Exhale as you release the pose, and repeat on the opposite side.",
+      "time": ""
+    },
+    {
+      "id": 3,
+      "name": "Spine Lumbar Twist Stretch Right",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2016/04/supta-matsyendrasana-supine-spinal-twist-pose-spotebi.jpg",
+      "image2": "",
+      "instructions": "Lie on your back, bend your knees, rotate your hips to the left, extend your left leg, and cross your right knee over to the left side. Extend your right arm out to the side and rest your left hand on your right knee. Turn your head to the right and hold the pose for 30 seconds to 1 minute. Exhale as you release the pose, and repeat on the opposite side.",
+      "time": ""
+    },
+    {
+      "id": 4,
+      "name": "Triceps Stretch Left",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/triceps-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight with your feet hip-width apart. Lift and bend one arm until your hand is in the middle of the upper back. Grasp the elbow with the other hand and gently pull. Hold for 10 to 20 seconds and repeat on the other side.",
+      "time": ""
+    },
+    {
+      "id": 5,
+      "name": "Triceps Stretch Right",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/triceps-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight with your feet hip-width apart. Lift and bend one arm until your hand is in the middle of the upper back. Grasp the elbow with the other hand and gently pull. Hold for 10 to 20 seconds and repeat on the other side.",
+      "time": ""
+    },
+    {
+      "id": 6,
+      "name": "Standing Biceps Stretch Left",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/11/biceps-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight and clasp your hands behind your back. Straighten your arms and rotate your hands, so that the palms face downward. Raise your arms and hold for 1the specified time",
+      "time": ""
+    },
+    {
+      "id": 7,
+      "name": "Standing Biceps Stretch Right",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2014/11/biceps-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand straight and clasp your hands behind your back. Straighten your arms and rotate your hands, so that the palms face downward. Raise your arms and hold for 1the specified time",
+      "time": ""
+    },
+    {
+      "id": 8,
+      "name": "Left Quad Stretch With Wall",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/03/quad-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand up tall and shift your weight to the right leg. Lift your left foot and grasp it with your left hand. Pull the left foot toward your butt until you feel the stretch in your quads. Hold the stretch for 30 seconds and repeat with the right leg.",
+      "time": ""
+    },
+    {
+      "id": 9,
+      "name": "Right Quad Stretch With Wall",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/03/quad-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand up tall and shift your weight to the right leg. Lift your left foot and grasp it with your left hand. Pull the left foot toward your butt until you feel the stretch in your quads. Hold the stretch for 30 seconds and repeat with the right leg.",
+      "time": ""
+    },
+    {
+      "id": 10,
+      "name": "Knee To Chest Strecth Right",
+      "likes": 0,
+      "image1": "http://www.activesportschiro.com/uploads/2/7/6/8/27681893/6452865.jpg",
+      "image2": "",
+      "instructions": "With hand behind right knee, pull knee in to chest until a comfortable stretch is felt in lower back and buttocks. Keep back relaxed.Hold 15 seconds. Now pull knee towards opposite shoulder to feel the stretch in the back of the right hip.",
+      "time": ""
+    },
+    {
+      "id": 11,
+      "name": "Knee To Chest Stretch Left",
+      "likes": 0,
+      "image1": "http://www.activesportschiro.com/uploads/2/7/6/8/27681893/6452865.jpg",
+      "image2": "",
+      "instructions": "With hand behind right knee, pull knee in to chest until a comfortable stretch is felt in lower back and buttocks. Keep back relaxed.Hold 15 seconds. Now pull knee towards opposite shoulder to feel the stretch in the back of the right hip.",
+      "time": ""
+    },
+    {
+      "id": 12,
+      "name": "Calf Stretch Left",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/03/calf-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand holding onto a wall with your arms extended and your toes pointing forward. Extend your right leg back, keeping your right foot flat on the floor. Lean forward and slowly bend your left knee until you feel the stretch in your back calf. Hold the stretch and repeat on the left leg.",
+      "time": ""
+    },
+    {
+      "id": 13,
+      "name": "Calf Stretch Right",
+      "likes": 0,
+      "image1": "https://www.spotebi.com/wp-content/uploads/2015/03/calf-stretch-exercise-illustration.jpg",
+      "image2": "",
+      "instructions": "Stand holding onto a wall with your arms extended and your toes pointing forward. Extend your right leg back, keeping your right foot flat on the floor. Lean forward and slowly bend your left knee until you feel the stretch in your back calf. Hold the stretch and repeat on the left leg.",
+      "time": ""
+    },
+    {
+      "id": 14,
+      "name": "Side-Lying Floor Stretch Left",
+      "likes": 0,
+      "image1": "https://1.bp.blogspot.com/-mroQYgipY0w/Xte88j5mweI/AAAAAAAAEaA/C0F3lqChd-crQVWoql-kp1pf3_St2XOtACEwYBhgLKs0DAL1OcqxYos3CEqCgP2vuZeUYVA3D8UkS3SbuSUA4Nm4G0d2pFEWvFS7_8YrCzMes3pwlB5v9qjFf9eqcClRXhAx3vBD_t7z6PDzDOeZZ5z8CVa2lUdeg56LL6Ov4mU96O9XUF8T1rCGcio8dodKuTD-pKt47LQsrvi-UcWD1GGTURbpNRHW-ul6Y9wBaHOkaHsgW_HnLkWXM6QcUwgzl_pCMqtgthghSwu5gS8Dt53wvrHkEHTTm-YgTwQ13xi1mOI_zK03yoPhg-il1oqOJ04tWjJYGNbon6SiQtIww0sbkodXL1Izz_7mX8GrCP3R0jEYuBETr0jc33e7AyWcxqARauKIZ2kAI6ShmMxrq9wmoSNvp2q30doZdVFt5a9xOZjss8hl2IlEAYOQrA__4uvUSow7QHLRZ3XLC83N-9ANl6enTtw4V--sczKqAsN7DcQkmdr54ik-zO-u6EoOC8go3O5dMd3WXcCrxxOcdCyj3ZuCvHY_diBh4NvBn2sATw30vEYZpygIUuUH3JtQtLKXZA-2xtrr0L8aZphXd-wsoWUWBN7uJNBJpVkLFiiE88QrdbDCBOw_HvV0kHlx-3ZVAm3ic4qtT-zk2dpcw2_7e9gU/s320/side%2Blying%2Bfloor%2Bstretch.jpg",
+      "image2": "",
+      "instructions": "",
+      "time": ""
+    },
+    {
+      "id": 15,
+      "name": "Side-Lying Floor Stretch Right",
+      "likes": 0,
+      "image1": "https://1.bp.blogspot.com/-mroQYgipY0w/Xte88j5mweI/AAAAAAAAEaA/C0F3lqChd-crQVWoql-kp1pf3_St2XOtACEwYBhgLKs0DAL1OcqxYos3CEqCgP2vuZeUYVA3D8UkS3SbuSUA4Nm4G0d2pFEWvFS7_8YrCzMes3pwlB5v9qjFf9eqcClRXhAx3vBD_t7z6PDzDOeZZ5z8CVa2lUdeg56LL6Ov4mU96O9XUF8T1rCGcio8dodKuTD-pKt47LQsrvi-UcWD1GGTURbpNRHW-ul6Y9wBaHOkaHsgW_HnLkWXM6QcUwgzl_pCMqtgthghSwu5gS8Dt53wvrHkEHTTm-YgTwQ13xi1mOI_zK03yoPhg-il1oqOJ04tWjJYGNbon6SiQtIww0sbkodXL1Izz_7mX8GrCP3R0jEYuBETr0jc33e7AyWcxqARauKIZ2kAI6ShmMxrq9wmoSNvp2q30doZdVFt5a9xOZjss8hl2IlEAYOQrA__4uvUSow7QHLRZ3XLC83N-9ANl6enTtw4V--sczKqAsN7DcQkmdr54ik-zO-u6EoOC8go3O5dMd3WXcCrxxOcdCyj3ZuCvHY_diBh4NvBn2sATw30vEYZpygIUuUH3JtQtLKXZA-2xtrr0L8aZphXd-wsoWUWBN7uJNBJpVkLFiiE88QrdbDCBOw_HvV0kHlx-3ZVAm3ic4qtT-zk2dpcw2_7e9gU/s320/side%2Blying%2Bfloor%2Bstretch.jpg",
+      "image2": "",
+      "instructions": "Lie on your left side with your left knee slightly bent in front of you and your right leg stretched behind the left leg. Then straighten your right arm over your head and gently pull on your right wrist to stretch the right side of your body. Hold this position for a few seconds.",
+      "time": ""
+    },
+    {
+      "id": 16,
+      "name": "Cat Cow Pose",
+      "likes": 0,
+      "image1": "",
+      "image2": "https://1.bp.blogspot.com/-VgmiYx3WSvk/Xte98CW0mmI/AAAAAAAAEaQ/Uo2VJOjOS-og-oqfF9OXhgZNLzaL1kzhACEwYBhgLKs0DAL1OcqwuGQYMGagVyn44CXhbUcQJhJ-zyGL8xUvIxviUPeH9kUA_EyQk19fp83wA8tMzExiuHGEisPHaw9oxuFftf8FcBBqu1lWgXbBdxcD4R3PXS_GLQyEsmaWj1zTT1QWAsTNp2wd0msGVboNh0SZ2NjS8790xVGkUMyMbaoDjyUo_YHtXIStWwwi6cyswBW5kiWDAV3hsMQfIvkeS5wVRfqTvA8VY9J2yWWME5Fqa_JwKq25V2vFJJ622AwCLZDASh1fIVu88SyAf8M_xANzqOVEvEasL_75j5s_k8q-6jnMFqSppmLQZ8jPmlshxc6DyzexKaX_HSIkVrf9W6xeAoRjYd_m92ZFcP5YsDMFV7ppR-W6sloBn-Lr_5_j_9YGYMIHVEk0z4t0Tt_smqgdmqa7NCGp-xGKjRcWIJEH8LrM2HCM3nykcDzbfEPVhF-Xm6dMWf0F7OyWNZ_NCzvNx40O4FqQgMLooWPmhqWNuxpV2RL2Rx-0BwrrMPv52TYRFlmBJAvxlW0RepwOUeEmcu8X6tFrOC5OZQ-WX5OZ2jvnb8yEAf9GUUZgHoSFZNMPfI26FCSFl2WSc9QQYsENYbnG5fVUVfwx49Gsw1oDf9gU/s1600/cat%2Bcoe%2Bpose.gif",
+      "instructions": "Start on all four with your knees under your butt and your hand directly under your shoulders.Then take a breath and make your belly fall down, shoulder roll back and head come off towards the ceiling. As you exhale, curve your back upward and let your head come down. Repeat the exercise.Do it slowly with each step of this exercise.",
+      "time": ""
+    },
+    {
+      "id": 17,
+      "name": "Child's Pose",
+      "likes": 0,
+      "image1": "https://1.bp.blogspot.com/-fSUCl-5tyAA/XstrevPeTEI/AAAAAAAAD0w/CnXQZoc5LtU_1k30o-sL6Iej6zcujcEHACPcBGAYYCw/s320/child-pose.webp",
+      "image2": "",
+      "instructions": "start with your knees and hands on the floor. Then put your hands a little for water, widen your knees, and put your toes together. Then take a breath, then axle and seatback.Try to make your butt touch your Heels for stock relax your elbows, make your forehead touch the ground, and try to lower power chest close to the floor. This position for a few seconds.",
+      "time": ""
+    }
+  ]
+}

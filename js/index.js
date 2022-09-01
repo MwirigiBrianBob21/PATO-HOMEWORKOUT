@@ -1,17 +1,47 @@
-const apiForeign = "https://wger.de/api/v2"
+const apiForeign = "https://mwirigibrianbob21.github.io/patojson.api/myData.json"
+const apiHost = "http://localhost:3000";
+
 
 document.addEventListener("DOMContentLoaded", ()=>{
-    fetch(`${apiForeign}/exerciseimage`)
+    fetch(`${apiForeign }/warmup`)
     .then(response => response.json())
-    .then( gallery => displayExerciseImage(gallery))
+    .then( exercise => {console.log( exercise)})
+
+    document.querySelector("#monday-start").addEventListener("click",() =>{
+        console.log("Hello")
+        let workoutTable = document.querySelector("tr")
+        console.log(workoutTable)
+        
+        for(let r of exercise.list) {
+            workoutTable += `<tr>
+            <th>${r.id}</th>
+            <th>Workout</th>
+            <th>Instructions</th>
+            <th>Sets</th>
+            <th>Muscle Group</th>
+          </tr>`;
+        }
+       
+        document.querySelector("table").innerHTML = workoutTable;
+    })
      
     
     // Adding Button Functionalities
-    Array.from(document.getElementsByClassName('button')).forEach(function (elm) { elm.addEventListener('click', displayWorkoutPage) })
-    Array.from(document.getElementsByClassName('end-button')).forEach(function (elm) { elm.addEventListener('click', displayHomePage) })
+    Array.from(document.getElementsByClassName('button')).forEach(function (elm) { elm.addEventListener('click', ()=>{
+        displayWorkoutPage()
+        // mondayWorkout()
+    //    let buttonArray = [...elm]
+    //    console.log(elm)
+        })
+    }) 
+
+    Array.from(document.getElementsByClassName('end-button')).forEach(function (elm) { elm.addEventListener('click', displayHomePage) 
+})
 
     
-})
+
+
+
 
 
 // how to change the divs
@@ -31,7 +61,6 @@ function displayHomePage() {
 
 
 function displayWorkoutPage() {
-
     
     [].forEach.call(document.querySelectorAll('.container'), 
         function(el){
@@ -40,34 +69,41 @@ function displayWorkoutPage() {
             else if(el.style.display == 'none')
                 
                 el.style.display = 'flex';
-                countdown()
+                
                 
         });
-
-    
+  
 
         // Add timer
 
     function countdown(){
-        var timeleft = 15;
+        var timeleft = 30;
 
-    var downloadTimer = setInterval(function function1(){
-    document.getElementById("countdown").innerHTML = timeleft + 
-    " "+"seconds remaining";
+        var downloadTimer = setInterval(function function1(){
+        document.getElementById("countdown").innerHTML = timeleft + 
+            " "+"seconds remaining";
 
-    timeleft -= 1;
-    if(timeleft <= 0){
-        clearInterval(downloadTimer);
-        document.getElementById("countdown").innerHTML = "Time is up!"
-    }
-    }, 1000);
+            timeleft -= 1;
+                if(timeleft <= 0){
+                    clearInterval(downloadTimer);
+                    document.getElementById("countdown").innerHTML = "Congrats! See you Tommorrow"
+                }
+            }, 1000);
 
-    console.log(countdown);
-
+    // console.log(countdown);
+    
      
-}}
+}countdown()
+}
 
-// const daysOfTheWeek = }
+
+
+    
+ 
+  
+})
+
+
 
 
 

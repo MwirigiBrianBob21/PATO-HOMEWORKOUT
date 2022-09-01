@@ -1,15 +1,15 @@
-
-*{
-
-    
-height: max-content;
-
+/* The fonts can be better you can try Proxima Nova or Avenir 
+then for the colours check out colour wheel to see which colours 
+are complementary */
+* {
+    height: max-content;
+    width: fit-content;
 }
+ 
 body{
     width: 1440px;
     height: 1024px;
     background-image: url(/images/sushil-ghimire-DC5akQJyH4I-unsplash\ 1\ \(1\).png);
-
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
     
@@ -28,6 +28,8 @@ body{
     /* display: flex; */
     /* align-items: center; */
     letter-spacing: -0.02em;
+    position: relative;
+    left: 20rem;
     color: #FFEB00;
 }
 #barcode{
@@ -40,9 +42,9 @@ body{
     /* align-items: center; */
     /* text-align: center; */
     letter-spacing: -0.017em;
-    color: #30FF0F;
+    color: peachpuff;
     position: relative;
-    left: 360px;
+    left: 93%;
     top: -30px;
 }
 #container{
@@ -52,17 +54,44 @@ body{
     margin-left: 180px;
     
 }
+
+.day:first-child:hover{
+    background-image: url(/images/chest.jpg);
+    background-size:contain;
+}
+#tuesday:hover{
+    background-image: url(/images/abs.jpg);
+    background-size:cover;
+}
+.day:hover{
+    box-shadow:5px 5px 10px rgba(244, 127, 9, 0.876);
+    background-image: url(/images/bobmarley.jpeg);
+    background-position: center;
+}
 .day{
     /* border: 2px solid yellow; */
     width: 20rem ;
+
     height: 20rem;
     margin-right: 16px;
     margin-top: 16px;
     background: hsla(51, 94%, 45%, 0.089);
+    box-shadow:1px 2px 4px slategrey
     /* mix-blend-mode: color-dodge; */
     
-    
-    
+     
+}
+.day>h2:hover{
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: dimgray;
+    box-shadow: 2px 1px 3px #30FF0F;
+}
+.heading:hover{
+    text-decoration:overline;
+    text-decoration-style:solid;
+    pointer-events:painted;
 }
 h2{
     font-family: 'Kalam';
@@ -70,14 +99,16 @@ h2{
     font-weight: 700;
     font-size: 40px;
     line-height: 64px;
-    /* display: flex; */
-    /* align-items: center; */
     text-align: center;
     letter-spacing: -0.017em;
     
-    color: #30FF0F;
+    color: peachpuff;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.athlete{
+    box-shadow: 9px 10px 2px peachpuff;
+    border-style: groove;
 }
 button{
     position: relative;
@@ -99,19 +130,48 @@ button{
 }
 table {
     display:list-item;
-    
+    position: relative;
+    width: 100%;    
     border-collapse: collapse;
     font-size: 20px;    
     color: #30FF0F
   }
   .weekday{
     position: relative;
-    left: 35%;
-    width: 70%;
+    /* left: 35%; */
+    /* width: 70%; */
   }
   th{
     color: #FFEB00;
   }
-  th, td {
-    border: 3px solid;
+  th, td, tfoot{
+    border: 3px solid ; 
   }
+.athlete ul li{
+    color: #FFEB00;
+    list-style:none;
+    text-align: center;
+    text-overflow: inherit;
+    text-overflow:ellipsis;
+    /* height: 10px; */
+    
+}
+#countdown{
+    background-color: whitesmoke;
+    border-radius:30%;
+    width:max-content;
+    height: 50px;
+    font-size: 32px;
+    position: static;
+
+}
+.workout{
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: rgba(255,255,255,.1); */
+    border-bottom: 10px blue solid;
+    width: 50%;
+    position: relative;
+    left: 20%;
+    
+}
