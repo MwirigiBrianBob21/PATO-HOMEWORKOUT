@@ -32,28 +32,7 @@ body{
     letter-spacing: -0.02em;
     position: relative;
     left: 20rem;
-#mySelect{
-    position: relative;
-    top: 10rem;
-    left: -12rem;
-    padding: 20px;
-    font-weight: 900;
-}
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: rgb(240, 14, 14);
-    color: #fff;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-  }
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+    color: #FFEB00;
 }
 #barcode{
     font-family: 'Libre Barcode 128 Text';
@@ -195,6 +174,37 @@ table {
     border-bottom: 10px blue solid;
     width: 50%;
     position: relative;
-    left: 20%;
+.likes-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .likes {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .like-button {
+    color: rgb(255, 127, 80);
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    transition: color 300ms;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+}
+  
+  .like-button:hover {
+    color: rgb(241, 71, 19);
+  }
+  
+  .like-button:active {
+    color: rgb(253, 159, 124);
+  }
     
+  .like-button:focus {
+    outline: none;
 }
