@@ -3,10 +3,11 @@
 
 > The challenge is well structured with HOMEWORKOUT execrises that can be done with ease. 
 
-DEVELOPER:      BRIAN MWIRIGI
-                =============
+DEVELOPER:      
+BRIAN MWIRIGI
+=============
 
-##INSTRUCTIONS##
+##INSTRUCTIONS
 
 ## The app has a simple UI that shows the weekdays and an Athlete's option.
 *  Open the link
