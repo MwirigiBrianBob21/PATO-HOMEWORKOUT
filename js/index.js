@@ -57,7 +57,35 @@ function displayWorkoutPage() {
         });
   
 
-        // Add timer
+function mondayWorkouts(){
+
+    fetch(`${apiForeign }/mondayWorkout`)
+    .then(response => response.json())
+    .then( workout => {
+
+    workout.forEach(elm =>{
+        // console.log(elm.image1)
+        let workoutPage = document.querySelector(".table");
+            let child = document.createElement("tr")
+            
+            child.innerHTML += `
+            <td class="workout-image"><img onmouseenter=src="${elm.image1}" alt="exerciseImage">
+            <td>${elm.name}</td>
+          <td>${elm.instructions}</td>
+          <td>${elm.sets} x4 </td>           
+         `
+            
+
+         workoutPage.appendChild(child)
+
+        })
+    
+    
+    
+         })
+    
+        
+    }
 
     function countdown(){
         var timeleft = 30;
