@@ -187,6 +187,13 @@ function mondayWorkouts(){
     }) 
         })
 
+     // ADDING THE LIKE BUTTON
+     let count = document.querySelector("#like-count")
+        let countValue = `0`
+           let loveBtn = document.querySelector("#like-button")
+           loveBtn.addEventListener("click", ()=>{
+           count.innerHTML = `${countValue ++} likes`
+               
 })
     
  
