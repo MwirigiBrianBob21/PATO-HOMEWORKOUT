@@ -87,45 +87,105 @@ function mondayWorkouts(){
         
     }
 
-    function countdown(){
-        var timeleft = 30;
+    // Display Tuesday Workouts
+    function tuesdayWorkouts(){
 
-        var downloadTimer = setInterval(function function1(){
-        document.getElementById("countdown").innerHTML = timeleft + 
-            " "+"seconds remaining";
+        fetch(`${apiForeign }/tuesdayWorkouts`)
+        .then(response => response.json())
+        .then( workout => {
 
-            timeleft -= 1;
-                if(timeleft <= 0){
-                    clearInterval(downloadTimer);
-                    document.getElementById("countdown").innerHTML = "Congrats! See you Tommorrow"
+        workout.forEach(elm =>{
+            // console.log(elm.image1)
+            let workoutPage = document.querySelector(".table");
+                let child = document.createElement("tr")
+                
+                child.innerHTML += `
+                <td class="workout-image"><img onmouseenter=src="${elm.image1}" alt="exerciseImage">
+                <td>${elm.name}</td>
+              <td>${elm.instructions}</td>
+              <td>${elm.sets} x4 </td>
+
+             `      
+             workoutPage.appendChild(child)
+    
+            })        
+        })       
+            
                 }
-            }, 1000);
+     // Display Wednesday Workouts
+     function wednesdayWorkouts(){
 
-    // console.log(countdown);
+        fetch(`${apiForeign }/wednesdayWorkouts`)
+        .then(response => response.json())
+        .then( workout => {
+    
+        workout.forEach(elm =>{
+            let workoutPage = document.querySelector(".table");
+                let child = document.createElement("tr")
+                
+                child.innerHTML += `
+                <td class="workout-image"><img onmouseenter=src="${elm.image1}" alt="exerciseImage">
+                <td>${elm.name}</td>
+              <td>${elm.instructions}</td>
+              <td>${elm.sets} x4 </td>
+
+                                    `      
+             workoutPage.appendChild(child)
+
+            })        
+        })
     
      
-}countdown()
 }
 
+    // Display Thursday Workouts
+    function thursdayWorkouts(){
 
-fetch(`${apiHost }/workout`)
+        fetch(`${apiForeign }/thursdayWorkouts`)
     .then(response => response.json())
     .then( workout => {
+            console.log(workout)
         
-        return workout;
+        workout.forEach(elm =>{
+            let workoutPage = document.querySelector(".table");
+                let child = document.createElement("tr")
         
+                child.innerHTML += `
+                <td class="workout-image"><img onmouseenter=src="${elm.image1}" alt="exerciseImage">
+                <td>${elm.name}</td>
+              <td>${elm.instructions}</td>
+              <td>${elm.sets} x4 </td>
+                                        `      
+             workoutPage.appendChild(child)
         
     })
-// Render Workouts Array
-function fetchWorkouts(){
-    fetch(`${apiHost}/workout`)
+        })
+        
+            
+    }
+
+    // Display Friday Workouts
+    function fridayWorkouts(){
+
+        fetch(`${apiForeign }/fridayWorkouts`)
     .then(response => response.json())
-    .then(obj => {
-        let array = obj.workout
-       console.log(array)
+        .then( workout => {
+    
+        workout.forEach(elm =>{
+            let workoutPage = document.querySelector(".table");
+                let child = document.createElement("tr")
+                
+                child.innerHTML += `
+                <td class="workout-image"><img onmouseenter=src="${elm.image1}" alt="exerciseImage">
+                <td>${elm.name}</td>
+                <td>${elm.instructions}</td>
+                <td>${elm.sets} x4 </td>
+
+                                    `      
+             workoutPage.appendChild(child)
         
     }) 
-}fetchWorkouts()
+        })
 
 })
     
