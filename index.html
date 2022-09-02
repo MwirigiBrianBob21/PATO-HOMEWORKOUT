@@ -7,37 +7,27 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>StayFit</title>
 </head>
+
 <body>
     
         <div class="heading">
         <h1>PATO HOME-WORKOUT</h1>
         <p id="barcode">lite</p>
     </div>
-    <div class="container workout" style='display:none' >
+    <div class="container workout" style='display:none; ' >
         <div class="weekday">
-            <table>
-                <tr>
+            <table class="table" >
+                <tr class="table-header">
                   <th>Exercise Image</th>
                   <th>Workout</th>
                   <th>Instructions</th>
-                  <th>Sets</th>
-                  <th>Muscle Group</th>
+                  <th>Sets/time</th>
+                  <!-- <th>Muscle Group</th> -->
                 </tr>
-                <tr>
-                  <td class="workout-image"><img src="" alt="exerciseImage">
-                    <td>Name</td>
-                  <td>Workout instructions</td>
-                  <td>3 sets</td>
-                  <td><img src="" alt="musclegroup"></td>
-                </tr>
-                <tr>
-                    <td class="workout-image"><img src="" alt="exerciseImage"></td>
-                    <td>Name</td>
+                <tr class="push-ups">
 
-                    <td>workout instructions</td>
-                    <td>3 sets</td>
-                    <td><img src="" alt="musclegroup"></td>
-                  </tr>
+                </tr>
+                
               </table>
               <div id="countdown">
 
@@ -50,9 +40,25 @@
         
     </div>
     <div class="container" id="container" style='display:flex' >
-        <div class="day">
+       
+            <h2>Body Focus</h2>
+                <select id="mySelect" onchange="displayInputs()">
+                    <option value="Chest">Chest</option>
+                    <option value="Abs">Abs</option>
+                    <option value="Legs">Legs</option>
+                    <option value="Shoulder and arms ">Shoulder and arms</option>
+                </select>
+        
+        <div class="day tooltip" id="monday">
             <h2>MONDAY</h2>
             <button class="button" id="monday-start">Start</button>
+            <span class="tooltiptext">Chest</span>
+            
+            <div class="likes-section">
+                <span id="like-count" class="likes">0 likes</span>
+                <button id="like-button" class="like-button">♥</button>
+            </div>
+
         </div>
         <div class="day tooltip" id="tuesday">
             <h2>TUESDAY</h2>
@@ -62,7 +68,7 @@
             <div class="likes-section">
                 <span id="like-count" class="likes">0 likes</span>
                 <button id="like-button" class="like-button">♥</button>
-        </div>
+            </div>
 
         </div>
         <div class="day tooltip" id="wednesday">
@@ -73,7 +79,7 @@
             <div class="likes-section">
                 <span id="like-count" class="likes">0 likes</span>
                 <button id="like-button" class="like-button">♥</button>
-        </div>
+            </div>
 
         </div>
         <div class="day tooltip" id="thursday">
@@ -84,7 +90,7 @@
             <div class="likes-section">
                 <span id="like-count" class="likes">0 likes</span>
                 <button id="like-button" class="like-button">♥</button>
-        </div>
+            </div>
 
         </div>
         <div class="day tooltip" id="friday">
@@ -98,7 +104,7 @@
             </div>
         </div>
 
-        <div class="athlete">
+        <div class="athlete tooltip" >
             <h2>ATHLETE'S CHOICE</h2>
             <ul>
                 <li>HIIT</li>
@@ -107,6 +113,8 @@
                 <li>ABS</li>
                 <li>Stretching</li>
             </ul>
+            <span class="tooltiptext">In development stage</span>
+
         </div>
     </div>   
     

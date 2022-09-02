@@ -37,7 +37,9 @@
       "time": "30"
     }
   ],
-  "workout": [
+  
+  "mondayWorkout": [
+    
     {
       "id": 1,
       "name": "Incline Push-ups",
@@ -82,9 +84,10 @@
       "image2": "https://www.spotebi.com/wp-content/uploads/2014/10/knee-push-up-exercise-illustration.jpg",
       "instructions": "Kneel on the floor. Extend arms and put hands shoulder-width apart on the floor in front of you. Tighten abs while you bend arms, lowering your torso until chest grazes the floor. Push torso back up by straightening arms. Slow and steady. Repeat.",
       "sets": ""
-    },
+    }],
+    "tuesdayWorkouts":[
     {
-      "id": 6,
+      "id": 1,
       "name": "Abdominal Cruches",
       "likes": 0,
       "image1": "https://www.spotebi.com/wp-content/uploads/2014/10/crunches-exercise-illustration.jpg",
@@ -93,7 +96,7 @@
       "sets": ""
     },
     {
-      "id": 7,
+      "id": 2,
       "name": "Russian Twist",
       "likes": 0,
       "image1": "https://www.spotebi.com/wp-content/uploads/2015/04/russian-twist-exercise-illustration.jpg",
@@ -102,7 +105,7 @@
       "sets": ""
     },
     {
-      "id": 8,
+      "id": 3,
       "name": "Mountain Climber",
       "likes": 0,
       "image1": "https://www.spotebi.com/wp-content/uploads/2018/01/mountain-climber-twist-exercise-illustration-spotebi.jpg",
@@ -136,7 +139,10 @@
       "image2": "",
       "instructions": "Get into a push up position, with your elbows under your shoulders and your feet hip-width apart. Bend your elbows and rest your weight on your forearms and on your toes, keeping your body in a straight line. Hold for as long as possible.",
       "time": "30"
-    },
+    }
+  ],
+    "wednesdayWorkouts":
+    [
     {
       "id": 12,
       "name": "Arm Circles Clockwise",
@@ -235,7 +241,10 @@
       "image2": "https://workouttrends.com/wp-content/uploads/2014/05/wall-push-ups.jpg",
       "instructions": "Lift one leg off of the ground behind you. Slowly bend your elbows and begin to lean your body toward the wall until your nose almost touches it. Keep your back straight and elbows bending at around a 45-degree angle (instead of straight to the sides). Slowly push back to the starting position.",
       "sets": "Stand up with your feet shoulder-width apart. Bend your knees, press your hips back and stop the movement once the hip joint is slightly lower than the knees. Press your heels into the floor to return to the initial position. Repeat until set is complete."
-    },
+    }
+    ],
+    "thursdayWorkouts":
+    [
     {
       "id": 23,
       "name": "Squats",
@@ -307,7 +316,10 @@
       "image2": "",
       "instructions": "Start in a sumo squat position, with your feet in a wide stance, your toes pointing out to the sides, and your thighs parallel to the floor. Raise your heels off the floor and squeeze your calves. Lower your heels and return to the starting position. Repeat until the set is complete.",
       "sets": ""
-    },
+    }
+  ],
+  "fridayWorkouts":
+  [
     {
       "id": 31,
       "name": "Rhomboid Pulls",

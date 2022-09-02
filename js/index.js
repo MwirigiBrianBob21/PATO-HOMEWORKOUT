@@ -4,30 +4,24 @@ const apiHost = "http://localhost:3000";
 
 document.addEventListener("DOMContentLoaded", ()=>{
     
-    
 
+ // Refresh Page after clicking end button
 
+ function refreshPage(){
+    window.location.reload();
+} 
 
+    Array.from(document.getElementsByClassName('end-button')).forEach(function (elm) { elm.addEventListener('click', ()=>{  
+        
+        displayHomePage()
+        refreshPage()
+        
 
-    
-    
-    // Adding Button Functionalities
-    Array.from(document.getElementsByClassName('button')).forEach(function (elm) { elm.addEventListener('click', ()=>{
-        displayWorkoutPage()
-
-        })
-    }) 
-
-    Array.from(document.getElementsByClassName('end-button')).forEach(function (elm) { elm.addEventListener('click', displayHomePage) 
+        
+    } )
 })
 
-    
-
-
-
-
-
-// how to change the divs
+// How to change the divs
 function displayHomePage() {
     [].forEach.call(document.querySelectorAll('.container'), 
         function(el){
@@ -36,12 +30,16 @@ function displayHomePage() {
             else if(el.style.display == 'flex')
                 
                 el.style.display = 'none'
-                // el.style.display = 'block';
                 else 
                  el.style.display = 'flex'
         });
-    }
+    }  
 
+}
+
+
+
+)
 
 function displayWorkoutPage() {
     
@@ -55,8 +53,40 @@ function displayWorkoutPage() {
                 
                 
         });
-  
+    }
 
+    // Grabbing each button
+document.querySelector("#monday-start").addEventListener("click", ()=>{
+            displayWorkoutPage()
+            mondayWorkouts()   
+        
+    })
+
+document.querySelector("#tuesday-start").addEventListener("click", ()=>{
+        displayWorkoutPage()
+        tuesdayWorkouts()    
+    
+})
+
+document.querySelector("#wednesday-start").addEventListener("click", ()=>{
+    displayWorkoutPage()
+    wednesdayWorkouts()   
+
+})
+
+document.querySelector("#thursday-start").addEventListener("click", ()=>{
+displayWorkoutPage()
+thursdayWorkouts()    
+
+})
+
+document.querySelector("#friday-start").addEventListener("click", ()=>{
+    displayWorkoutPage()
+    fridayWorkouts()    
+    
+})
+
+// Display MondayWorkouts
 function mondayWorkouts(){
 
     fetch(`${apiForeign }/mondayWorkout`)
@@ -93,7 +123,7 @@ function mondayWorkouts(){
         fetch(`${apiForeign }/tuesdayWorkouts`)
         .then(response => response.json())
         .then( workout => {
-
+    
         workout.forEach(elm =>{
             // console.log(elm.image1)
             let workoutPage = document.querySelector(".table");
@@ -111,7 +141,7 @@ function mondayWorkouts(){
             })        
         })       
             
-                }
+    }
      // Display Wednesday Workouts
      function wednesdayWorkouts(){
 
@@ -131,25 +161,25 @@ function mondayWorkouts(){
 
                                     `      
              workoutPage.appendChild(child)
-
+    
             })        
         })
-    
-     
-}
+        
+            
+    }
 
     // Display Thursday Workouts
     function thursdayWorkouts(){
 
         fetch(`${apiForeign }/thursdayWorkouts`)
-    .then(response => response.json())
-    .then( workout => {
+        .then(response => response.json())
+        .then( workout => {
             console.log(workout)
-        
+    
         workout.forEach(elm =>{
             let workoutPage = document.querySelector(".table");
                 let child = document.createElement("tr")
-        
+                
                 child.innerHTML += `
                 <td class="workout-image"><img onmouseenter=src="${elm.image1}" alt="exerciseImage">
                 <td>${elm.name}</td>
@@ -157,8 +187,8 @@ function mondayWorkouts(){
               <td>${elm.sets} x4 </td>
                                         `      
              workoutPage.appendChild(child)
-        
-    })
+    
+            })        
         })
         
             
@@ -168,7 +198,7 @@ function mondayWorkouts(){
     function fridayWorkouts(){
 
         fetch(`${apiForeign }/fridayWorkouts`)
-    .then(response => response.json())
+        .then(response => response.json())
         .then( workout => {
     
         workout.forEach(elm =>{
@@ -183,9 +213,16 @@ function mondayWorkouts(){
 
                                     `      
              workoutPage.appendChild(child)
-        
-    }) 
+    
+            })        
         })
+
+       //Display Workouts by body
+       function displayInputs() {
+            let options = document.querySelector("#mySelect")
+            options.firstElementChild = mondayWorkouts()
+       }
+       displayInputs()
 
      // ADDING THE LIKE BUTTON
      let count = document.querySelector("#like-count")
@@ -194,7 +231,13 @@ function mondayWorkouts(){
            loveBtn.addEventListener("click", ()=>{
            count.innerHTML = `${countValue ++} likes`
                
-})
+           })
+        
+            
+    }
+    
+
+
     
  
   
