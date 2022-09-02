@@ -32,7 +32,28 @@ body{
     letter-spacing: -0.02em;
     position: relative;
     left: 20rem;
-    color: #FFEB00;
+#mySelect{
+    position: relative;
+    top: 10rem;
+    left: -12rem;
+    padding: 20px;
+    font-weight: 900;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(240, 14, 14);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 #barcode{
     font-family: 'Libre Barcode 128 Text';
