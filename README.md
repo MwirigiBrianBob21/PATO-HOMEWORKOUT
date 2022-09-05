@@ -1,7 +1,7 @@
 # PATO-HOMEWORKOUT
-> PATO_HOMEWORKOUT is a one week fitness challenge that tests you to your limits.
+> PATO_HOMEWORKOUT is a one week fitness challenge that tests you to your limits. C
 
-> The challenge is well structured with HOMEWORKOUT execrises that can be done with ease. 
+> The challenge is well structured with HOMEWORKOUT exercises that can be done with ease.
 
 DEVELOPER:      
 BRIAN MWIRIGI
@@ -14,4 +14,6 @@ BRIAN MWIRIGI
 *   Start on Monday execrises
 *   Continue
 
-###### LICENSE
+##Link :https://mwirigibrianbob21.github.io/PATO-HOMEWORKOUT
+
+###### LICENSE: MIT License
